@@ -1,0 +1,63 @@
+.heart:hover {
+    color: red;
+  }
+  
+  .cart:hover {
+    color: #fbb72c;
+  }
+  
+  .fixed-top{
+    z-index: 1;
+  }
+  .cart-button{
+    padding: 18px 8px;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    width: 98%;
+    border: none;
+    float: left;
+    background: #ff9f00;
+    color: #fff;
+    text-transform: uppercase;
+    /* width: 100%; */
+    font-size: 16px;
+  }
+  
+  .buy-button{
+    background: #fb641b;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    border: none;
+    color: #fff;
+    padding: 18px 8px;
+    border-radius: 2px;
+    float: right;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .badge {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    background: red;
+    color: #fff;
+    padding: 3px 10px;
+  }
+
+  .btn-custom {
+    background-color: #51bd9b !important;
+    border-color: #51bd9b !important;
+    color:white;
+  }
+
+  .btn-custom:hover,
+  .btn-custom:active,
+  .btn-custom:visited,
+  .btn-custom:focus {
+    background-color: DarkBlue !important;
+    border-color: DarkBlue !important;
+  }
